@@ -1,0 +1,32 @@
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.exe
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.deps.json
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.runtimeconfig.json
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\ref\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.pdb
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\ref\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.pdb
+C:\Users\Administrator\source\repos\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.exe
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.deps.json
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.runtimeconfig.json
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\ref\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\bin\Debug\net5.0\Lab_TextEditor.pdb
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\ref\Lab_TextEditor.dll
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.pdb
+C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\Lab_TextEditor\obj\Debug\net5.0\Lab_TextEditor.genruntimeconfig.cache
