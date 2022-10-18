@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_TextEditor
 {
-    class Sentence : Punctuation, IComparable<Sentence>
+    class Sentence : IComparable<Sentence>
     {
         public List<Punctuation> punctuations = new List<Punctuation>();
         public int CompareTo(Sentence other)
@@ -24,29 +24,26 @@ namespace Lab_TextEditor
                 return 0;
             }
         }
-        public List<Word> WordsList = new();
-       // public int amountOfPunc = 0;
-        public int countWords()
-        {
-            return WordsList.Count();
-        }
-        public int sentenceLength()
+        public List<Word> Words = new();
+
+        public int AmountOfWords { get {return Words.Count();} }
+        public int sentenceLength() //Length
         {
             int length = 0;
-            for (int i = 0; i < countWords(); ++i)
+            for (int i = 0; i < AmountOfWords; ++i)
             {
-                length += WordsList[i].wordLength();
+                length += Words[i].Length;
             }
-            return length + (countWords() - 1) + punctuations.Count();
+            return length + (AmountOfWords - 1) + punctuations.Count();
         }
-        public string buildSentence()
+        public override string ToString()  //ToString()
         {
             string result = "";
             int count = 0;
-            for(int i = 0; i < countWords(); ++i)
+            for(int i = 0; i < AmountOfWords; ++i)
             {
-                result += WordsList[i].str;
-                if (WordsList[i].havePuncMark)
+                result += Words[i].str;
+                if (Words[i].havePuncMark)
                 {
                     result += punctuations[count].mark;
                     count++;
@@ -55,26 +52,26 @@ namespace Lab_TextEditor
             }
             return result;
         }
-        public void removeWords(int length)
+        public void Remove(int length, string lang)  //Remove
         {
-            for(int i = 0; i < countWords(); ++i)
+            for(int i = 0; i < AmountOfWords; ++i)
             {
-                if (WordsList[i].isSutiable() && WordsList[i].wordLength() == length)
+                if (Words[i].isSutiable(lang) && Words[i].Length == length)
                 {
-                    WordsList.Remove(WordsList[i]);
+                    Words.Remove(Words[i]);
                 } 
             }
         }
-        public void replaceWords(int length, string substring)
+        public void Replace(int length, string substring) // fghj fgh gh
         {
-            for (int i = 0; i < countWords(); ++i)
+            for (int i = 0; i < AmountOfWords; ++i)
             {
-                if (WordsList[i].wordLength() == length)
+                if (Words[i].Length == length)
                 {
-                    WordsList.RemoveAt(i);
+                    Words.RemoveAt(i);
                     Word word = new();
                     word.str = substring;
-                    WordsList.Insert(i, word);
+                    Words.Insert(i, word);
                 }
             }
         }

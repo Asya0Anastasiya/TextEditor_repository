@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Lab_TextEditor
 {
@@ -11,7 +12,9 @@ namespace Lab_TextEditor
         Text text = new Text();
         Sentence sentence = new Sentence();
         Word word = new Word();
-        public Text ReadText()
+        //XmlSerializer formatter = new XmlSerializer(typeof(List<Sentence>));
+
+        public Text ReadText()  //path as parameter
         {
              string path = @"C:\Users\Administrator\source\repos\C#\3rd semester\Lab_TextEditor\song.txt";
             string song = System.IO.File.ReadAllText(path);

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Xml.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +10,7 @@ namespace Lab_TextEditor
 {
     class Text
     {
+        public static string Lang;
         public List<Sentence> SentencesList = new();
         //public void PrintElements()
         //{
@@ -33,13 +36,44 @@ namespace Lab_TextEditor
         //        Console.WriteLine(SentencesList[i].sentenceLength());
         //    }
         //}
-        public void PrintSentences()
+        public void PrintSentences() 
         {
             for (int i = 0; i < SentencesList.Count; ++i)
             {
-                //SentencesList[i].replaceWords(4, "!!!");
-                //SentencesList[i].removeWords(4);
-                Console.WriteLine(SentencesList[i].buildSentence());
+                //SentencesList[i].Replace(4, "!!!");
+                //SentencesList[i].Remove(4,Lang);
+                Console.WriteLine(SentencesList[i]);
+            }
+        }
+        private static List<string> readFile(string path)
+        {
+            List<string> text = new List<string>();
+            StreamReader reader = new StreamReader(path);
+            string str;
+            while ((str = reader.ReadLine()) != null)
+            {
+                if ((str = str.Trim()).Length != 0)
+                    text.Add(str);
+            }
+            reader.Close();
+            return text;
+        }
+
+       
+        public void deleteStopWords()
+        {
+            List<string> stopWords;
+            if (Lang == "Ru") stopWords = readFile("stopWordsRu.txt");
+            else stopWords = readFile("stopWordsEn.txt");
+            for (int i = 0; i < SentencesList.Count; ++i)
+            {
+                for (int j = 0; j < SentencesList[i].Words.Count; ++j)
+                {
+                    if(stopWords.Contains(SentencesList[i].Words[j].str))
+                    {
+                        SentencesList[i].Words.RemoveAt(j);
+                    }
+                }
             }
         }
     }
