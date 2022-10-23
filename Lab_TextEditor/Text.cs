@@ -6,11 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Lab_TextEditor
 {
-    class Text
+    [Serializable]
+    public class Text
     {
+        public Text() { }
+        [XmlIgnore]
         public static string Lang;
+        [XmlIgnore]
         public List<Sentence> SentencesList = new();
         //public void PrintElements()
         //{
@@ -60,7 +65,7 @@ namespace Lab_TextEditor
         }
 
        
-        public void deleteStopWords()
+        public void DeleteStopWords()
         {
             List<string> stopWords;
             if (Lang == "Ru") stopWords = readFile("stopWordsRu.txt");
@@ -75,6 +80,25 @@ namespace Lab_TextEditor
                     }
                 }
             }
+        }
+
+        public void Print(List<string> words)
+        {
+            for(int i = 0; i < words.Count; ++i)
+            {
+                Console.WriteLine(words[i]);
+            }
+        }
+        public void PrintWords()
+        {
+            for (int i = 0; i < SentencesList.Count; ++i)
+            {
+                if (SentencesList[i].type == Sentence.Sentencetype.c)
+                {
+                    SentencesList[i].Interrogative(4);
+                }
+            }
+            Print(Sentence.array);
         }
     }
 }

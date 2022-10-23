@@ -3,13 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Lab_TextEditor
 {
-    class Word
+    [Serializable]
+    public class Word
     {
+        public Word() { }
+        [XmlIgnore]
         public string str;
-       // public Punctuation {get {} }
+        private char punct;
+        public char Punct {get { return punct; } set{ punct = value; } }
+       [XmlIgnore]
         public bool havePuncMark;
         public int Length { get {return str.Length; } }
         string[] vowels;
