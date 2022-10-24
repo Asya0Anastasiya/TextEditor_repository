@@ -7,13 +7,14 @@ using System.Xml.Serialization;
 
 namespace Lab_TextEditor
 {
-    [Serializable]
+    
     public class Word
     {
         public Word() { }
-        [XmlIgnore]
+        //[XmlIgnore]
         public string str;
         private char punct;
+        [XmlIgnore]
         public char Punct {get { return punct; } set{ punct = value; } }
        [XmlIgnore]
         public bool havePuncMark;

@@ -14,9 +14,9 @@ namespace Lab_TextEditor
         //public string Comma = ",";
         //public string ExclamationMark = "!";
         //public string QuestionMark = "?";
-        [XmlIgnore]
+       // [XmlIgnore]
         public char mark;
-        [XmlIgnore]
+       // [XmlIgnore]
         public int index;
     }
 }

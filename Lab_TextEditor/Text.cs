@@ -15,7 +15,7 @@ namespace Lab_TextEditor
         public Text() { }
         [XmlIgnore]
         public static string Lang;
-        [XmlIgnore]
+        
         public List<Sentence> SentencesList = new();
         //public void PrintElements()
         //{

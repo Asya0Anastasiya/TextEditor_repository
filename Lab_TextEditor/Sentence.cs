@@ -7,20 +7,20 @@ using System.Xml.Serialization;
 
 namespace Lab_TextEditor
 {
-    [Serializable]
+    
     
     public class Sentence : IComparable<Sentence>
     {
         public Sentence() { }
-
+        [XmlIgnore]
         public List<char> pun = new List<char>();
 
         [XmlIgnore]
-        public List<Punctuation> punctuations = new List<Punctuation>();
+        //public List<Punctuation> punctuations = new List<Punctuation>();
 
         public static List<string> array = new List<string>();
         public enum Sentencetype { a, b, c }
-
+        [XmlIgnore]
         public Sentencetype type;
 
         public int CompareTo(Sentence other)
@@ -39,7 +39,7 @@ namespace Lab_TextEditor
             }
         }
 
-        [XmlIgnore]
+        //[XmlIgnore]
         public List<Word> Words = new();
 
         [XmlIgnore]
@@ -52,7 +52,7 @@ namespace Lab_TextEditor
             {
                 length += Words[i].Length;
             }
-            return length + (AmountOfWords - 1) + punctuations.Count();
+            return length + (AmountOfWords - 1) + pun.Count();
         }
         public override string ToString()  //ToString()
         {
