@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rXmC7RnbkYbl46NQsuduuZQxUq7e6eoqah9HPX5PP4avwmCyb6J5Stf6TcR8aee58VF3hN0qBmevlIi8qieizw==",
+  "dgSpecHash": "q7fSr0jWEuOFXghg9hs8XXI06MxF7mBqsGRxQFdBAx1+k4M9QjWTKtowPIpEV4Q7YHB0k7s/GGFy3DwHgChv3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\C#\\3rd semester\\Lab_TextEditor\\Lab_TextEditor\\Lab_TextEditor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
