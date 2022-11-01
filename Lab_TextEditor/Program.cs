@@ -25,7 +25,7 @@ namespace Lab_TextEditor
 
                 Console.WriteLine("Object has been serialized");
             }
-            //text.deleteStopWords();
+            text.DeleteStopWords();
             //text.PrintElements();
             //text.SentencesList.Sort();
             //text.PrintSentences();

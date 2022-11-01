@@ -21,18 +21,25 @@
         <Word>
           <str>walk</str>
         </Word>
+        <Word>
+          <str>home</str>
+        </Word>
       </Words>
     </Sentence>
     <Sentence>
       <Words>
         <Word>
-          <str>The</str>
+          <str>
+The</str>
         </Word>
         <Word>
           <str>only</str>
         </Word>
         <Word>
           <str>think</str>
+        </Word>
+        <Word>
+          <str>alone</str>
         </Word>
         <Word>
           <str>that</str>
@@ -47,6 +54,9 @@
           <str>ever</str>
         </Word>
         <Word>
+          <str>think</str>
+        </Word>
+        <Word>
           <str>known</str>
         </Word>
       </Words>
@@ -54,7 +64,8 @@
     <Sentence>
       <Words>
         <Word>
-          <str>Don't</str>
+          <str>
+Don't</str>
         </Word>
         <Word>
           <str>know</str>
@@ -73,7 +84,8 @@
     <Sentence>
       <Words>
         <Word>
-          <str>But</str>
+          <str>
+But</str>
         </Word>
         <Word>
           <str>it</str>
@@ -86,6 +98,9 @@
         </Word>
         <Word>
           <str>to</str>
+        </Word>
+        <Word>
+          <str>think</str>
         </Word>
         <Word>
           <str>me</str>
